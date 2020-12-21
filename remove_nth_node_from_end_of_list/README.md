@@ -28,3 +28,4 @@ Constraints:
     0 <= Node.val <= 100
     1 <= n <= sz
 
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/
