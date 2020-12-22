@@ -12,7 +12,7 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
     // This one is just the dummy node, doesn't really matter other than 
     // to use to refer to the actual head
     placeholder := &ListNode{}
-    merged := original
+    merged := placeholder
     
     // While there are still nodes
     for nil != l1 && nil != l2 {
